@@ -11,8 +11,9 @@ h1 {
     border: 5px groove #8fbf81
 }
 
-* {
+body {
     background-color: #eafae4;
+    text-align: center;
 }
 
 ul {
@@ -21,25 +22,41 @@ ul {
     list-style-type: none;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 15px;
 }
 
 li {
     text-align: center;
     width: 30%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #537948;
+    overflow: hidden;
 }
 
 img {
-    border-radius: 10px;
-    width: 100%;
-    border: 2px solid #537948;
+    width: 80%;
+    padding-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #8fbf81;
-}
 
 a:hover {
     text-decoration: underline;
+}
+
+.card-header {
+    text-align: center;
+    border-bottom: 2px solid #537948;
+    background-color: #abcda1;
+    padding: 15px 0;
+    display: block; 
+    width: 100%;
+    font-weight: bold;
+    color: white; 
+    text-decoration: none; 
+}
+
+.card-header:hover {
+    text-decoration: underline; /* Underline only on hover */
 }
